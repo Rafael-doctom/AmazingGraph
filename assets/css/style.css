@@ -52,3 +52,27 @@
     width: 100%;
     max-width: 90%;
 }
+@media (max-width:768px){
+    .content-nav{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .text-introduction{
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+    }
+    .text-introduction h2{
+        font-size: 4rem;
+        display: block;
+    }
+    .text-introduction p{
+        font-size: 2rem;
+        font-weight: 300;
+        color:#766F68;
+        display: inline-block;
+        width: 80vw;
+        margin-bottom: 2rem;
+    }
+}
